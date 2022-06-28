@@ -1,0 +1,255 @@
+    .navbar-brand {
+        font-family: 'Viga';
+        font-size: 32px;
+    }
+    
+    .tombol {
+        border-radius: 40px important!;
+    }
+    
+    .jumbotron::after {
+        content: "";
+        height: 100%;
+        width: 100%;
+        background: linear-gradient(to top, rgb(0, 0, 0, 1), rgba(0, 0, 0, 0));
+        position: absolute;
+        bottom: 0;
+        left: 0px;
+        z-index: 1;
+    }
+    
+    .jumbotron {
+        background-image: url(img/jumbotron-bg.jpg);
+        background-size: cover;
+        height: 400px;
+        position: relative;
+        text-align: center;
+    }
+    
+    .navbar {
+        z-index: 2;
+    }
+    
+    .jumbotron button,
+    .jumbotron .container {
+        z-index: 2;
+        position: relative;
+    }
+    
+    .jumbotron h1 {
+        color: aliceblue;
+        font-size: 40px;
+        margin-top: 100px;
+    }
+    
+    .jumbotron .apa {
+        font-weight: bold;
+    }
+    
+    .tengah {
+        margin-top: 150px;
+        margin-bottom: 300px;
+    }
+    
+    .tengah .gambar img {
+        width: 95%;
+        min-height: 300px;
+        margin-left: 10px;
+    }
+    
+    .info-panel img {
+        width: 80px;
+        height: 80px;
+    }
+    
+    .info-panel {
+        background-color: whitesmoke;
+        margin-top: -98px;
+        height: auto;
+        z-index: 4;
+        box-shadow: 2px 2px 15px black;
+        border-radius: 15px;
+        width: 80%;
+    }
+    
+    .tengah .kanan span {
+        font-weight: bold;
+    }
+    
+    .kanan {
+        text-align: center;
+        font-size: 32;
+        text-transform: uppercase;
+    }
+    
+    .kanan h4 {
+        font-size: 50px;
+    }
+    
+    .kanan p {
+        margin-left: 5px;
+        margin-right: 5px;
+        text-align: justify;
+    }
+    
+    .kanan button {
+        float: none !important;
+    }
+    
+    .kata {
+        text-align: center;
+        margin-top: -170px;
+    }
+    
+    .kata h3 {
+        font-style: italic;
+        font-size: 28px !important;
+        font-weight: 200 !important;
+        color: rgb(56, 56, 153);
+    }
+    /* kecil */
+    
+    .kecil img {
+        width: 60px;
+        height: 60px;
+        opacity: .7;
+        margin-bottom: -10px;
+    }
+    
+    .kecil {
+        margin-top: -30px;
+        text-align: center;
+    }
+    
+    .kecil h5 {
+        margin-top: 10px;
+        margin-bottom: -1px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    
+    .kecil p {
+        font-size: 12px;
+    }
+    
+    .kecil img.utama {
+        width: 90px;
+        height: 90px;
+        margin-top: -15px;
+        margin-bottom: 7px;
+        opacity: 1;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    /* footer */
+    
+    .footer {
+        color: gray;
+        font-size: 16px;
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+    
+    .kata {
+        text-align: center;
+        margin-top: -170px;
+    }
+    
+    .kata h3 {
+        font-style: italic;
+        font-size: 28px !important;
+        font-weight: 200 !important;
+        color: rgb(56, 56, 153);
+    }
+    
+    .container {}
+    
+    .testimoni {}
+    
+    .kecil {
+        padding-top: 20px;
+        overflow: hidden;
+        padding-right: 0px;
+    }
+    
+    .kata {
+        padding-right: 0px;
+        overflow: hidden;
+    }
+    /* DEKSTOP VERSION */
+    
+    @media (min-width: 992px) {
+        .collapse li {
+            margin-right: 15px;
+            text-transform: uppercase;
+            position: relative;
+        }
+        .collapse li:hover::after {
+            content: '';
+            border-bottom: 3px solid blue;
+            display: block;
+            right: 30%;
+            bottom: 5px;
+            position: absolute;
+            width: 25px;
+        }
+        .jumbotron {
+            height: 700px;
+            margin-top: -75px;
+            text-align: center;
+            color: white;
+        }
+        .jumbotron .display-4 {
+            margin-top: 200px;
+            margin-bottom: 20px;
+            color: aliceblue;
+            font-size: 64px;
+        }
+        .navbar-brand,
+        .nav-item,
+        .shadow,
+        .putih {
+            text-shadow: 2px 2px 5px black;
+            color: aliceblue !important;
+        }
+        .tombol {
+            text-transform: uppercase;
+            border-radius: 40px;
+        }
+        .info-panel {
+            background-color: whitesmoke;
+            margin-top: -98px;
+            height: 120px;
+            z-index: 4;
+            box-shadow: 2px 2px 15px black;
+            border-radius: 15px;
+        }
+        .info-panel img {
+            width: 80px;
+            height: 80px;
+        }
+        .tengah .kanan h4 {
+            font-size: 52px;
+            margin-top: 50px;
+            color: rgb(11, 55, 108);
+            text-transform: uppercase;
+            text-align: left;
+        }
+        .kanan p {
+            margin-top: 20px;
+            text-align: left;
+            color: grey;
+            text-transform: none;
+        }
+        .kanan button {
+            margin-top: 20px;
+            float: left !important;
+        }
+        .navbar {
+            background-color: rgba(0, 0, 0, 0) !important;
+        }
+        /* kata */
+        .kecil {
+            margin-top: -60px;
+        }
+    }
